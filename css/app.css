@@ -83,11 +83,18 @@ body {
 }
 
 .modal-content{
-    background: url("../assets/images/gallery/3.jpg");
+    background: url("../assets/images/gallery/31.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
+/* .background-overlay{
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.5);
+  width: 100vw;
+  height: 100vh;
+} */
 
 .logo-depan-atas img{
   width: 280px;
@@ -115,7 +122,7 @@ body {
 
 #home{
     height: 100vh;
-    background: url("../assets/images/gallery/13.jpg");
+    background: url("../assets/images/gallery/32.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
