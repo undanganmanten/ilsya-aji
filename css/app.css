@@ -173,12 +173,12 @@ body {
 
 .detail-acara{
   padding-top: 20px;
-  height: 55vh;
+  height: 480px;
 }
 
 .tanggal-pernikahan{
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -237,7 +237,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 2px;
+  padding: 0px 2px;
   justify-content: center;
 }
 
@@ -245,7 +245,7 @@ body {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 2px;
+  padding: 0px 2px;
 }
 
 .column img {
