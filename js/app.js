@@ -63,25 +63,25 @@ const timer = () => {
     }, 1000);
 };
 
-var modal = document.querySelector(".protokol-kesehatan");
-var trigger = document.querySelector(".trigger");
-var closeButton = document.querySelector(".prokes-close-button");
+// var modal = document.querySelector(".protokol-kesehatan");
+// var trigger = document.querySelector(".trigger");
+// var closeButton = document.querySelector(".prokes-close-button");
 
-function toggleModal() {
-    setTimeout(() => {
-        modal.classList.toggle("prokes-show-modal");
-    }, 100);
-}
+// function toggleModal() {
+//     setTimeout(() => {
+//         modal.classList.toggle("prokes-show-modal");
+//     }, 100);
+// }
 
-function windowOnClick(event) {
-    if (event.target === modal) {
-        toggleModal();
-    }
-}
+// function windowOnClick(event) {
+//     if (event.target === modal) {
+//         toggleModal();
+//     }
+// }
 
-trigger.addEventListener("click", toggleModal);
-closeButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
+// trigger.addEventListener("click", toggleModal);
+// closeButton.addEventListener("click", toggleModal);
+// window.addEventListener("click", windowOnClick);
 
 
 const buka = () => {
