@@ -14,7 +14,7 @@
 }
 
 :root {
-  --primary-color: #84776d;
+  --primary-color: #fff9f4;
   --secondary-color: #28A5EA;
   --tertiary-color: #16E2C5;
   
@@ -38,7 +38,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0px !important;
     /* overflow: hidden; */
-    background-color: #84776d;
+    background-color: #fff9f4;
     overflow-x: hidden;
 }
 
@@ -117,7 +117,12 @@ body {
 }
 
 .main-color{
-  color: #fff;
+  color: #fff9f4;
+}
+
+.navbar-background{
+  background-color: #84776d !important;
+  color: #84776d;
 }
 
 #home{
@@ -140,10 +145,15 @@ body {
 } */
 
 .box-isra{
-  background-color: #484848;
+  background-color: transparent;
   border-radius: 20px;
   margin: 0px 20px;
   padding: 10px 10px 15px 10px;
+  border: solid 1px #84776d;
+}
+
+.box-isra p{
+  color: #84776d;
 }
 
 #mempelai{
@@ -283,7 +293,7 @@ body {
 
 #ucapan{
     height: max-content;
-    background-color: #484848;
+    background-color: #84776d;
     /* background: url("../assets/images/cover-top1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -562,6 +572,7 @@ svg.wave {
   background: rgba(144, 144, 144, 0.3);
   /* padding-right: 10px; */
   font-family: 'Playfair Display', serif;
+  border: solid 1px #fff;
 }
 
 .container2{
