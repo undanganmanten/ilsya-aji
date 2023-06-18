@@ -121,8 +121,8 @@ body {
 }
 
 .navbar-background{
-  background-color: #84776d !important;
-  color: #84776d;
+  background-color: #b29884 !important;
+  color: #b29884;
 }
 
 #home{
@@ -145,15 +145,16 @@ body {
 } */
 
 .box-isra{
+  margin-top: 10px !important;
   background-color: transparent;
   border-radius: 20px;
   margin: 0px 20px;
-  padding: 10px 10px 15px 10px;
-  border: solid 1px #84776d;
+  padding: 10px 10px 0px 10px;
+  border: solid 1px #b29884;
 }
 
 .box-isra p{
-  color: #84776d;
+  color: #b29884;
 }
 
 #mempelai{
@@ -282,7 +283,7 @@ body {
 
 .penutup{
   height: max-content;
-  background-color: #84776d;
+  background-color: #b29884;
   /* background: url("../assets/images/2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -293,7 +294,7 @@ body {
 
 #ucapan{
     height: max-content;
-    background-color: #84776d;
+    background-color: #b29884;
     /* background: url("../assets/images/cover-top1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,6 +356,7 @@ svg.wave {
 .alisra{
     width: 100px;
     padding: 15px;
+    margin-top: 15px;
 }
 
 .cropper {
@@ -552,6 +554,7 @@ svg.wave {
   padding: 10px;
   margin-bottom: 5px;
   font-size: 15px;
+  border: solid 1px #fff;
 }
 
 #input_button:hover{
