@@ -382,6 +382,11 @@ svg.wave {
     z-index: 1055;
 }
 
+#tombol-musik{
+  background-color: #fff9f4;
+  border: solid 2px #b29884;
+}
+
 .loading {
     position: fixed;
     top: 0;
